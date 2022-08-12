@@ -3,7 +3,7 @@
 
 int main(){
 	
-	// A program that finds the numbers you enter as odd or even
+	// A program that finds the numbers you enter as odd or even.
 	
 	int number;
 	
