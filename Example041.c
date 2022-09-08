@@ -10,8 +10,8 @@ It prints a triangle like this (Pyramid star triangle):
     * * * * * * 
      * * * * *
       * * * *
-	   * * *
-	    * *
+       * * *
+        * *
          *    
 
 */
