@@ -3,7 +3,8 @@
 
 /*This is a ice skating game. There are 5 referees in this game and they give points between 0-6.
 The point is calculated like that: total = (total-max point -min point)/3
-And end of the program the winner and its performance is printed*/
+And end of the program the winner and its performance is printed.
+*/
 
 struct players{
 	char name[20], surname[20];
