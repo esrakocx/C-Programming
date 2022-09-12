@@ -19,23 +19,22 @@ int main() {
 		
 		case 0:
 			productFee += productFee * taxBook;
-			printf("Total fee of your shopping: %.2f", productFee);
 			break;
 		
 		case 1:
 			productFee += productFee * taxFood;
-			printf("Total fee of your shopping: %.2f", productFee);
 			break;
 		
 		case 2:
 			productFee += productFee * taxLux;
-			printf("Total fee of your shopping: %.2f", productFee);
 			break;
 		
 		default:
 			printf("Incorrect code! Please try again!");
 			break;
 	}
+	
+	printf("Total cost of your shopping: %.2f", productFee);
 		
 	return 0;
 }
