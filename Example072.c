@@ -18,14 +18,13 @@ int main(){
    for (i = 0; i < 26; i++)
    {
     	if (count[i] != 0){
-			printf("%c occurs %d times in the entered sentence.\n", i+'a', count[i]);
+		printf("%c occurs %d times in the entered sentence.\n", i+'a', count[i]);
          
 	        if(count[i] > most){
 	        	most = count[i];
 	        	letter = i+'a';
-			}
-         	
 		}
+	}
    }
 	printf("%c is the most common letter in your sentence/word and its number: %d", letter, most);
 	
