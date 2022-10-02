@@ -38,10 +38,10 @@ int main(){
 	}
 	
 	printf("Source array's values: ");
-	print(source_arr, n);
+	print(source_arr,n);
 	
 	printf("\nDestination array's values: ");
-	print(dest_arr, n);
+	print(dest_arr,n);
 		
 	return 0;
 }
