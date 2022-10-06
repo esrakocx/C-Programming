@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include <stdlib.h>
  
-int IsPrime(int number, int n){
+int IsPrime(int number){
 	
 	int i, flag = 1;
 	
@@ -24,7 +24,7 @@ int main()
  	scanf("%d", &n);
  	
  	for(number=2; number<=n; number++){
- 		if(IsPrime(number, n) == 1)
+ 		if(IsPrime(number) == 1)
  			printf("%d ", number);
 	 }
   
