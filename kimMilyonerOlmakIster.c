@@ -250,7 +250,6 @@ int main(void){
 		printf("\n4. Soru 5000 TL deðerindedir. Yanýtlamak için 30 sn süreniz vardýr.\n\n");
 		cevap_kontrol(s, j, &control, &control2, &sayac);
 		sayac++;
-		printf("%d",sayac);
 		if(control){
 			odul = 5000;
 			if(control2){
